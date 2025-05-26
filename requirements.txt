@@ -5,3 +5,7 @@ requests==2.31.0
 selenium==4.21.0
 tqdm==4.66.4
 urllib3==1.26.20
+transformers==4.52.3
+torch==2.7.0
+wordcloud==1.9.4
+nltk==3.9.1
