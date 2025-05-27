@@ -10,4 +10,4 @@ class Sentiment():
         return self.classifier(text)[0]['label']
     
     def getSentimentScore(self, text):
-        return self.classifier(text)[0]['score']
+        return self.classifier(text)[1]['score']
