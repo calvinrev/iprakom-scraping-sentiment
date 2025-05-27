@@ -3,7 +3,6 @@ from transformers import pipeline
 
 class Sentiment():
     def __init__(self):
-        self.filepath = ''
         self.model = 'w11wo/indonesian-roberta-base-sentiment-classifier'
         self.classifier = pipeline("sentiment-analysis", model=self.model)
 
